@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD9C1CB696351BF456FA0276 /* Pods_panModalTutorial_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89142FD2909856378D968429 /* Pods_panModalTutorial_iOS.framework */; };
 		F80C46EA25FA6077009B9408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C46E925FA6077009B9408 /* AppDelegate.swift */; };
 		F80C46EC25FA6077009B9408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C46EB25FA6077009B9408 /* SceneDelegate.swift */; };
 		F80C46EE25FA6077009B9408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C46ED25FA6077009B9408 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C63164EECE8BB751D531CC5 /* Pods-panModalTutorial-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-panModalTutorial-iOS.debug.xcconfig"; path = "Target Support Files/Pods-panModalTutorial-iOS/Pods-panModalTutorial-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5369746E68B5AAFF0E67C4A1 /* Pods-panModalTutorial-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-panModalTutorial-iOS.release.xcconfig"; path = "Target Support Files/Pods-panModalTutorial-iOS/Pods-panModalTutorial-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		89142FD2909856378D968429 /* Pods_panModalTutorial_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_panModalTutorial_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80C46E625FA6077009B9408 /* panModalTutorial-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "panModalTutorial-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80C46E925FA6077009B9408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80C46EB25FA6077009B9408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9C1CB696351BF456FA0276 /* Pods_panModalTutorial_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04D0F1C90B3C3B8E56B5C185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C63164EECE8BB751D531CC5 /* Pods-panModalTutorial-iOS.debug.xcconfig */,
+				5369746E68B5AAFF0E67C4A1 /* Pods-panModalTutorial-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56F6A40BC022ABDD7BF1A434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89142FD2909856378D968429 /* Pods_panModalTutorial_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F80C46DD25FA6077009B9408 = {
 			isa = PBXGroup;
 			children = (
 				F80C46E825FA6077009B9408 /* panModalTutorial-iOS */,
 				F80C46E725FA6077009B9408 /* Products */,
+				04D0F1C90B3C3B8E56B5C185 /* Pods */,
+				56F6A40BC022ABDD7BF1A434 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80C46FA25FA6078009B9408 /* Build configuration list for PBXNativeTarget "panModalTutorial-iOS" */;
 			buildPhases = (
+				AA5776E54E92A8B9FB0114A6 /* [CP] Check Pods Manifest.lock */,
 				F80C46E225FA6077009B9408 /* Sources */,
 				F80C46E325FA6077009B9408 /* Frameworks */,
 				F80C46E425FA6077009B9408 /* Resources */,
+				06A9AC12AC79F41F4D074BC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A9AC12AC79F41F4D074BC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-panModalTutorial-iOS/Pods-panModalTutorial-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-panModalTutorial-iOS/Pods-panModalTutorial-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-panModalTutorial-iOS/Pods-panModalTutorial-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA5776E54E92A8B9FB0114A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-panModalTutorial-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F80C46E225FA6077009B9408 /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		F80C46FB25FA6078009B9408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C63164EECE8BB751D531CC5 /* Pods-panModalTutorial-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +372,7 @@
 		};
 		F80C46FC25FA6078009B9408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5369746E68B5AAFF0E67C4A1 /* Pods-panModalTutorial-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
