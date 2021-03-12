@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		F80C46F125FA6077009B9408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80C46EF25FA6077009B9408 /* Main.storyboard */; };
 		F80C46F325FA6078009B9408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80C46F225FA6078009B9408 /* Assets.xcassets */; };
 		F80C46F625FA6078009B9408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80C46F425FA6078009B9408 /* LaunchScreen.storyboard */; };
+		F8EDA32325FBB4A8004CC22D /* MyTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDA32225FBB4A8004CC22D /* MyTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F80C46F225FA6078009B9408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F80C46F525FA6078009B9408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F80C46F725FA6078009B9408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EDA32225FBB4A8004CC22D /* MyTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				0C63164EECE8BB751D531CC5 /* Pods-panModalTutorial-iOS.debug.xcconfig */,
 				5369746E68B5AAFF0E67C4A1 /* Pods-panModalTutorial-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				F80C46F225FA6078009B9408 /* Assets.xcassets */,
 				F80C46F425FA6078009B9408 /* LaunchScreen.storyboard */,
 				F80C46F725FA6078009B9408 /* Info.plist */,
+				F8EDA32225FBB4A8004CC22D /* MyTableVC.swift */,
 			);
 			path = "panModalTutorial-iOS";
 			sourceTree = "<group>";
@@ -207,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F80C46EE25FA6077009B9408 /* ViewController.swift in Sources */,
+				F8EDA32325FBB4A8004CC22D /* MyTableVC.swift in Sources */,
 				F80C46EA25FA6077009B9408 /* AppDelegate.swift in Sources */,
 				F80C46EC25FA6077009B9408 /* SceneDelegate.swift in Sources */,
 			);

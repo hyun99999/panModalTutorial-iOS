@@ -19,6 +19,15 @@ class ViewController: UIViewController {
 
     @IBAction func onModalBtn(_ sender: UIButton) {
         print("ViewController - onModalBtnClicked()")
+        
+        switch sender {
+        case tableModalBtn:
+            print("tableModalBtn 클릭")
+        case halfModalBtn:
+            print("halfModalBtn 클릭")
+        default:
+            break
+        }
     }
     
 }
