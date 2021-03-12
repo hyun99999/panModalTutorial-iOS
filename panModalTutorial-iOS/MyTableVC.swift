@@ -19,7 +19,20 @@ extension MyTableVC: PanModalPresentable{
     var panScrollable: UIScrollView? {
         return tableView
     }
-    
-    
+    //adjusting height
+
+    //contentHeight
+    var shortFormHeight: PanModalHeight {
+        return .contentHeight(300)
+    }
+//maxHeight
+    var longFormHeight: PanModalHeight {
+        return .maxHeightWithTopInset(200)
+    }
+    var anchorModalToLongForm: Bool{
+        return false≈
+        //true : 화면 최상단까지 스크롤 안됨.
+        //falss : 화면 최상단까지 스크롤 됨.
+    }
 }
 
