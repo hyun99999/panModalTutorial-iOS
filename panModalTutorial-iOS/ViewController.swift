@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import PanModal
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var tableModalBtn: UIButton!
+    @IBOutlet weak var halfModalBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func onModalBtn(_ sender: UIButton) {
+        print("ViewController - onModalBtnClicked()")
+    }
+    
 }
 
