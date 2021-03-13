@@ -13,6 +13,9 @@ class MySimpleVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    @IBAction func onConfirmBtn(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
 extension MySimpleVC: PanModalPresentable {
