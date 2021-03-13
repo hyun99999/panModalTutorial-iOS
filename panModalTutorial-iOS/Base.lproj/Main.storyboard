@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="78.348214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--My SimpleVC-->
         <scene sceneID="EfU-oy-aui">
             <objects>
-                <viewController id="Wdg-l4-clc" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MySimpleVC" id="Wdg-l4-clc" customClass="MySimpleVC" customModule="panModalTutorial_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HW3-7s-ea9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
