@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD9C1CB696351BF456FA0276 /* Pods_panModalTutorial_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89142FD2909856378D968429 /* Pods_panModalTutorial_iOS.framework */; };
+		F803446225FCECDE00919AF5 /* MySimpleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F803446125FCECDE00919AF5 /* MySimpleVC.swift */; };
 		F80C46EA25FA6077009B9408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C46E925FA6077009B9408 /* AppDelegate.swift */; };
 		F80C46EC25FA6077009B9408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C46EB25FA6077009B9408 /* SceneDelegate.swift */; };
 		F80C46EE25FA6077009B9408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C46ED25FA6077009B9408 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 		0C63164EECE8BB751D531CC5 /* Pods-panModalTutorial-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-panModalTutorial-iOS.debug.xcconfig"; path = "Target Support Files/Pods-panModalTutorial-iOS/Pods-panModalTutorial-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5369746E68B5AAFF0E67C4A1 /* Pods-panModalTutorial-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-panModalTutorial-iOS.release.xcconfig"; path = "Target Support Files/Pods-panModalTutorial-iOS/Pods-panModalTutorial-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		89142FD2909856378D968429 /* Pods_panModalTutorial_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_panModalTutorial_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F803446125FCECDE00919AF5 /* MySimpleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySimpleVC.swift; sourceTree = "<group>"; };
 		F80C46E625FA6077009B9408 /* panModalTutorial-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "panModalTutorial-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80C46E925FA6077009B9408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80C46EB25FA6077009B9408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				F80C46EB25FA6077009B9408 /* SceneDelegate.swift */,
 				F80C46ED25FA6077009B9408 /* ViewController.swift */,
 				F80C46EF25FA6077009B9408 /* Main.storyboard */,
+				F803446125FCECDE00919AF5 /* MySimpleVC.swift */,
 				F80C46F225FA6078009B9408 /* Assets.xcassets */,
 				F80C46F425FA6078009B9408 /* LaunchScreen.storyboard */,
 				F80C46F725FA6078009B9408 /* Info.plist */,
@@ -210,6 +213,7 @@
 			files = (
 				F80C46EE25FA6077009B9408 /* ViewController.swift in Sources */,
 				F8EDA32325FBB4A8004CC22D /* MyTableVC.swift in Sources */,
+				F803446225FCECDE00919AF5 /* MySimpleVC.swift in Sources */,
 				F80C46EA25FA6077009B9408 /* AppDelegate.swift in Sources */,
 				F80C46EC25FA6077009B9408 /* SceneDelegate.swift in Sources */,
 			);

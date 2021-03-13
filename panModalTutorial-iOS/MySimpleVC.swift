@@ -1,26 +1,24 @@
 //
-//  MyTableVC.swift
+//  MySimpleVC.swift
 //  panModalTutorial-iOS
 //
-//  Created by kimhyungyu on 2021/03/12.
+//  Created by kimhyungyu on 2021/03/13.
 //
 
 import Foundation
 import UIKit
 import PanModal
 
-class MyTableVC: UITableViewController {
+class MySimpleVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
 
-extension MyTableVC: PanModalPresentable{
+extension MySimpleVC: PanModalPresentable {
     var panScrollable: UIScrollView? {
-        return tableView
+        nil
     }
-    //adjusting height
-
     //contentHeight
     var shortFormHeight: PanModalHeight {
         return .contentHeight(300)
@@ -34,5 +32,5 @@ extension MyTableVC: PanModalPresentable{
         //true : 화면 최상단까지 스크롤 안됨.
         //falss : 화면 최상단까지 스크롤 됨.
     }
+    
 }
-
